@@ -1,6 +1,6 @@
 # origin-placeholder
 
-creating an origin as a comission from a friend
+creating an origins in collab with friend(s)
 
 <details>
   <summary>idea 1 - shinobi</summary>
