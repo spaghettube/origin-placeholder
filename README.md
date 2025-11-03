@@ -20,7 +20,10 @@ according to the name of the origin "Shinobi" im not focusing on one specific ch
 - substitution (maybe if crouched, maybe max 2 charges, 5<x<20 tick cooldown, recharge idk yet)
 - summoning (could use frog with pehkui, maybe use frog as either tank or healer)
 - arrow in main-hand acts as kunai (can be thrown, not much damage)
-<\details>
+
+</details>
+
+
 
 <details>
   <summary>idea 2 - 11th harbinger</summary>
@@ -38,4 +41,4 @@ according to the name of the origin "Shinobi" im not focusing on one specific ch
   ### active abilities
   - delusion transformation (damage boost)
   - foul legacy transformation or something (speed/damage/resistance boost, but with a limited duration. main drawback is that it leaves you extra weak; slower, less damage, less resistance. you do eventually go back to normal tho)
-<\details>
+</details>
