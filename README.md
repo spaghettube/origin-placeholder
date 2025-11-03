@@ -38,4 +38,4 @@ according to the name of the origin "Shinobi" im not focusing on one specific ch
   ### active abilities
   - delusion transformation (damage boost)
   - foul legacy transformation or something (speed/damage/resistance boost, but with a limited duration. main drawback is that it leaves you extra weak; slower, less damage, less resistance. you do eventually go back to normal tho)
-   <\details>
+<\details>
