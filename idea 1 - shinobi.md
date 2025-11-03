@@ -15,4 +15,4 @@ according to the name of the origin "Shinobi" im not focusing on one specific ch
 ### active abilities
 - substitution (maybe if crouched, maybe max 2 charges, 5<x<20 tick cooldown, recharge idk yet)
 - summoning (could use frog with pehkui, maybe use frog as either tank or healer)
-- arrow in main-hand acts as kunai (can be thrown, not much damage)
+- {placeholder-item} in main-hand acts as kunai (can be thrown, not much damage, soft homing effect?)
