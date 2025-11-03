@@ -13,3 +13,5 @@ idea 2 - 11th harbinger
   ### active abilities
   - delusion transformation (damage boost)
   - foul legacy transformation or something (speed/damage/resistance boost, but with a limited duration. main drawback is that it leaves you extra weak; slower, less damage, less resistance. you do eventually go back to normal tho)
+
+hello it me
