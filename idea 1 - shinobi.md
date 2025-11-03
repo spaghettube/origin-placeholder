@@ -11,7 +11,7 @@ according to the name of the origin "Shinobi" im not focusing on one specific ch
 ### passive abilities
 - permanent attribute speed boost (additive)
 - permanent attack speed (has to be %)
-- permanent armor toughness nerf (has to be %)
+- permanent subtle armor toughness nerf (has to be %)
 
 ### active abilities
 - substitution (maybe if crouched, maybe max 2 charges, 5<x<20 tick cooldown, recharge idk yet)
