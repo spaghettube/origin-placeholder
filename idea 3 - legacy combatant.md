@@ -17,6 +17,7 @@ the idea is to make the player's abilities as default's as a human's, whilst mer
 - allow projectile knockback (gotta figure this out technically)
 
 probably useful:
+```
 on origin join:
 attribute @s minecraft:generic.attack_speed base set 200
 
