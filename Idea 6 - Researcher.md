@@ -22,7 +22,7 @@ If you want variants, consider:
 - **Learning Loop** — Short buff after completing an advancement
 
 
-```
+```python
 import json, os, zipfile, pathlib, textwrap
 
 base = "/mnt/data/tajemnik_origin_datapack_en"
@@ -173,4 +173,3 @@ with open(f"{base}/data/{ns}/functions/load.mcfunction", "w", encoding="utf-8") 
     f.write("tellraw @a [{\"text\":\"[Tajemnik Origin] \",\"color\":\"dark_purple\"},{\"text\":\"Loaded.\",\"color\":\"white\"}]\n")
 with open(f"{base}/data/minecraft/tags/functions/load.json", "w", encoding="utf-8") as f:
     json.dump({"values": [f"{ns}:load"]}, f, indent=2)
-```
