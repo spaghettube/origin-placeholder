@@ -1,0 +1,5 @@
+execute as @a[tag=legcombat] store result score @s atkspd run attribute @s minecraft:generic.attack_speed get 10
+
+execute as @a[tag=legcombat] run attribute @s minecraft:generic.attack_damage modifier remove 1-1-1-1-1
+execute as @a[tag=legcombat] if score @s atkspd matches 1..1989 run with spd attribute @s minecraft:generic.attack_speed with dmg attribute @s minecraft:generic.attack_damage with shortA calculate "(((4-(200-@(spd)))^2)^(1/2))" with shortB calculate "(@(dmg)-4.348)" with deltadmg calculate "((@(shortB)^0.55)+@(shortA)-1)*(2.1^(0.05*@(shortA)))+1-@(shortB)" attribute @s minecraft:generic.attack_damage modifier add 1-1-1-1-1 legdmg @(deltadmg) add
+execute as @a[tag=legcombat] if score @s atkspd matches 1990.. run with spd attribute @s minecraft:generic.attack_speed with dmg attribute @s minecraft:generic.attack_damage with delta calculate "1.116*(@(dmg)^0.55)-@(dmg)+3.232" attribute @s minecraft:generic.attack_damage modifier add 1-1-1-1-1 legdmg @(delta) add
