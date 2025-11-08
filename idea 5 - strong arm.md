@@ -7,7 +7,7 @@ however you only have one strong arm, your other one has always been neglected i
 ### passive abilities
 - no off-hand
 - noticeable damage buff (additive)
-- head smash (every crit has a (10<x<40)% chance to teleport opponent one block down)
+- head smash (every crit has a (10<x<40)% chance to teleport opponent one block down) - maybe use onGround=False AND Motion[1]<0 to check for crits. look into tpRel or add -y Motion + vanilla tp
 
 ### active abilities
 - ground punch (activate with keybind + looking down, make entities around get sent upwards, maybe make a random amount of block come up too?)
