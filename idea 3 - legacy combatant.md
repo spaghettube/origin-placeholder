@@ -18,4 +18,4 @@ the idea is to make the player's abilities as default's as a human's, whilst mer
 
 probably useful:
 
-2.1^{0.05a}\cdot(b^{0.55}+a-1)+1-b on desmos, kinda innacurate in game rn idk why
+delta=2.1^{0.05a}\cdot(b^{0.55}+a-1)+1-b on desmos, delta will always be < 0, kinda innacurate in game rn idk why
