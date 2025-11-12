@@ -12,3 +12,6 @@ however you only have one strong arm, your other one has always been neglected i
 ### active abilities
 - ground punch (activate with keybind + looking down, make entities around get sent upwards, maybe make a random amount of block come up too?)
 - strong punch (keybind ability, gotta think if toggle with stamina or one time use, deal considerable damage and knockback on punch)
+
+useful:
+could use onGround and submerged(quality commands) checks for head smash adaptability
