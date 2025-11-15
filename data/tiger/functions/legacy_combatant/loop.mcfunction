@@ -1,0 +1,3 @@
+execute as @a[tag=!legcombat] run attribute @s minecraft:generic.attack_damage modifier remove 1-1-1-1-1
+
+title @a clear

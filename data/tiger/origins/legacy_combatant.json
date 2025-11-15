@@ -1,0 +1,9 @@
+{
+	"powers":[
+		"origins:no_shield",
+		"tiger:legacy_combatant/tag_player",
+		"tiger:legacy_combatant/fake_crit"
+	],
+	"icon":"minecraft:diamond_sword",
+	"impact":1
+}
