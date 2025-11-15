@@ -10,7 +10,7 @@ the idea is to make the player's abilities as default's as a human's, whilst mer
 
 ### passive abilities
 - no attack cooldown - done
-- damage nerf (has to be %) - done, needs % conversion + sharpness check
+- damage nerf (has to be %) - done, needs sharpness check
 - no shield - done
 
 ### active abilities
@@ -18,6 +18,8 @@ the idea is to make the player's abilities as default's as a human's, whilst mer
 
 probably useful:
 
-delta=2.1^{0.05a}\cdot(b^{0.55}+a-1)+1-b on desmos, delta will always be < 0, kinda innacurate in game rn idk why
+on desmos online calc:
+delta=1.8^{-0.05b-0.01a}\cdot(0.28b+0.87a^{0.5}+0.24ab)
+multiplier=-1+\frac{1.8^{-0.05b-0.01a}\cdot\left(0.32b+a^{0.5}+0.28ab-1\right)}{b} (mc multiplier assumes multiplying by 0 is x*1)
 
 could simulate sprint crit hits using an origins sprinting check (mandatory condition)
