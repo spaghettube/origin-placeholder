@@ -13,9 +13,6 @@ the idea is to make the player's abilities as default's as a human's, whilst mer
 - damage nerf (has to be %) - done
 - no shield - done
 
-### active abilities
-- allow projectile knockback (gotta figure this out technically)
-
 probably useful:
 
 on desmos online calc, a=attack speed, b=damage:
