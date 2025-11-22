@@ -1,5 +1,5 @@
 #calc dmg display
-$with id uuid @s with dmgdisplay calculate "$(simpledmg)*(((0$(mult)+1)/$(fake_crit))-3*(0$(amplifier)+1))" data modify storage tiger:legcombat @(id).dmgdisplay set value @(dmgdisplay)
+$with id uuid @s data modify storage tiger:legcombat @(id).dmgdisplay set value $(cleandmg)
 
 #check slot swap
 scoreboard players operation @s tempdmgdisplay = @s dmgdisplay
