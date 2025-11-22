@@ -2,34 +2,62 @@
 	"type":"origins:action_over_time",
 	"interval": 1,
 	"entity_action":{
-		"type":"origins:if_else",
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-				"type":"origins:sprinting"
-				},
-				{
-				"type":"origins:command",
-				"command":"execute if data entity @s {OnGround:0b}",
-				"comparison":"==",
-				"compare_to":1
-				},
-				{
-				"type":"origins:command",
-				"command":"data get entity @s Motion[1]",
-				"comparison":"<",
-				"compare_to":0
-				}
-			]
-		},
-		"if_action":{
+		"type":"origins:and",
+		"actions":[
+			{
 			"type":"origins:execute_command",
-			"command":"function tiger:legacy_combatant/1fake_crit"
-		},
-		"else_action":{
+			"command":"execute if data entity @s ActiveEffects[{Id:5}] run with id uuid @s execute store result storage tiger:legcombat @(id).amplifier int 1 run data get entity @s ActiveEffects[{Id:5}].Amplifier"
+			},
+			{
 			"type":"origins:execute_command",
-			"command":"function tiger:legacy_combatant/0fake_crit"
+			"command":"execute unless data entity @s ActiveEffects[{Id:5}] run with id uuid @s data modify storage tiger:legcombat @(id).amplifier set value -1"
+			},
+			{
+			"type":"origins:if_else",
+			"condition":{
+				"type":"origins:and",
+				"conditions":[
+					{
+					"type":"origins:sprinting"
+					},
+					{
+					"type":"origins:nbt",
+					"nbt":"{OnGround:0b}"
+					},
+					{
+					"type":"origins:command",
+					"command":"data get entity @s Motion[1]",
+					"comparison":"<",
+					"compare_to":0
+					}
+				]
+			},
+			"if_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+					"type":"origins:execute_command",
+					"command":"with id uuid @s data modify storage tiger:legcombat @(id).fake_crit set value 1.5"
+					},
+					{
+					"type":"origins:execute_command",
+					"command":"with id uuid @s function tiger:legacy_combatant/dmgcalc1 with storage tiger:legcombat @(id)"
+					}
+				]
+			},
+			"else_action":{
+				"type":"origins:and",
+				"actions":[
+					{
+					"type":"origins:execute_command",
+					"command":"with id uuid @s data modify storage tiger:legcombat @(id).fake_crit set value 1"
+					},
+					{
+					"type":"origins:execute_command",
+					"command":"with id uuid @s function tiger:legacy_combatant/dmgcalc1 with storage tiger:legcombat @(id)"
+					}
+				]
+			}
 		}
-	}
-}
+	]
+}}
