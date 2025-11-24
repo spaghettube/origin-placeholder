@@ -15,3 +15,5 @@ however you only have one strong arm, your other one has always been neglected i
 
 useful:
 could use onGround and submerged(quality commands) checks for head smash adaptability
+
+hypothesis for no offhand: power condition item in offhand - if main hand free, place item in main hand, else place item in inventory; if inventory not full place item in inventory, else drop (could use quality commands for loop) 
